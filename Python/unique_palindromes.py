@@ -1,9 +1,9 @@
-def expand(s, l, r):
+def expand(s, left, right):
     len_s = len(s)
-    while l >= 0 and r < len_s and s[l] == s[r]:
-        l -= 1
-        r += 1
-    return l+1, r-1
+    while left >= 0 and right < len_s and s[left] == s[right]:
+        left -= 1
+        right += 1
+    return left+1, right-1
 
 
 def get_unique_palindromes(s):

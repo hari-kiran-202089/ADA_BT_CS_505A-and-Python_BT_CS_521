@@ -1,4 +1,3 @@
-from webbrowser import get
 from Python.unique_palindromes import get_unique_palindromes
 
 
