@@ -3,3 +3,5 @@
 ---
 
 #### Problem Statements
+
+1. Implement Binary Search
