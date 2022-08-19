@@ -2,8 +2,8 @@ from Python.unique_palindromes import get_unique_palindromes
 
 
 def test_get_unique_palindromes():
-    assert get_unique_palindromes("abcbada") == ['abcba', 'ada']
-    assert get_unique_palindromes("abcbadda") == ['abcba', 'adda']
+    assert get_unique_palindromes("abcbada") == ['ada', 'abcba']
+    assert get_unique_palindromes("abcbadda") == ['adda', 'abcba']
 
 
 def test_empty_string():
