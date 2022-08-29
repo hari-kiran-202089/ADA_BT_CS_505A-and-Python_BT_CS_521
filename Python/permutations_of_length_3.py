@@ -1,6 +1,3 @@
-from ast import main
-
-
 def permutaions_of_3(word: str):
     result = set()
     for i in range(len(word)):
