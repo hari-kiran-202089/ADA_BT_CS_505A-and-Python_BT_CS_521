@@ -5,3 +5,4 @@
 #### Problem Statements
 
 1. Implement Binary Search
+2. Mergesort Algorithm
