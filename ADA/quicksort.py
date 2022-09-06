@@ -18,16 +18,16 @@ def partition(arr, start, end):
 
 
 def quicksort(arr, start, end):
-    if end - start <= 1:
+    if start >= end:
         return
 
     # pivot index
-    idx = partition(arr, start, end-1)
+    idx = partition(arr, start, end)
 
     # sorting left subarray
-    quicksort(arr, start, idx)
+    quicksort(arr, start, idx-1)
     # sorting right subarray
-    quicksort(arr, idx, end)
+    quicksort(arr, idx+1, end)
 
 
 if __name__ == "__main__":
@@ -35,6 +35,6 @@ if __name__ == "__main__":
     arr = list(map(int, arr.split()))
     print("Unsorted array: ")
     print(arr)
-    quicksort(arr, 0, len(arr))
+    quicksort(arr, 0, len(arr)-1)
     print("Sorted array: ")
     print(arr)
