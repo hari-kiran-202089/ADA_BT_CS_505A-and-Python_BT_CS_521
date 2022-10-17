@@ -7,3 +7,4 @@
 1. Implement Binary Search
 2. Mergesort Algorithm
 3. Quick sort Algorithm
+4. Knapsack Problem (Fractional)
