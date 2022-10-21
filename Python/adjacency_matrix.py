@@ -1,19 +1,23 @@
 # Edge list to adjacency matrix of weighted undirected graph
 
-def edges_to_adjacency_matrix(edges, total_vertices):
+class Graph:
+    def __init__(self, total_vertices):
+        self.matrix = [[0]*total_vertices for b in range(total_vertices)]
+        self.size = total_vertices
 
-    # creating a matrix of size total vertices
-    matrix = [[0]*total_vertices for b in range(total_vertices)]
+    # Method to add edges to matrix
+    def add_edge(self, v1, v2, w=1):
+        self.matrix[v1][v2] = w
+        self.matrix[v2][v1] = w
 
-    # filling the weights using edges
-    for edge in edges:
-        v1, v2, w = edge  # unpacking the values
+    # returns to total vertices
+    def __len__(self):
+        return self.size
 
-        # Assuming That vertices values starts from 0
-        matrix[v1][v2] = w
-        matrix[v2][v1] = w
-
-    return matrix
+    # prints matrix
+    def display(self):
+        for row in self.matrix:
+            print(row)
 
 
 if __name__ == '__main__':
@@ -25,8 +29,13 @@ if __name__ == '__main__':
     print("\nStart entering edges (s,d,w): ")
     edges = [list(map(int, input().split(" "))) for i in range(num_edges)]
 
-    matrix = edges_to_adjacency_matrix(edges, v)
+    # Graph object
+    g = Graph(v)
+
+    # adding edges
+    for edge in edges:
+        v1, v2, w = edge
+        g.add_edge(v1, v2, w)
 
     print("\nAdjacency Matrix is ")
-    for row in matrix:
-        print(row)
+    g.display()
