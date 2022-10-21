@@ -1,21 +1,22 @@
 # Edge list to adjacency list of weighted undirected graph
+class Graph:
+    def __init__(self):
+        self.adjacency_list = {}
 
-def edges_to_adjacency_list(edges):
-    adjacency_list = {}
-
-    for edge in edges:
-        v1, v2, w = edge
-        if v1 in adjacency_list:
-            adjacency_list[v1].append((v2, w))
+    def add_edge(self, v1, v2, w=1):
+        if v1 in self.adjacency_list:
+            self.adjacency_list[v1].append((v2, w))
         else:
-            adjacency_list[v1] = [(v2, w)]
+            self.adjacency_list[v1] = [(v2, w)]
 
-        if v2 in adjacency_list:
-            adjacency_list[v2].append((v1, w))
+        if v2 in self.adjacency_list:
+            self.adjacency_list[v2].append((v1, w))
         else:
-            adjacency_list[v2] = [(v1, w)]
+            self.adjacency_list[v2] = [(v1, w)]
 
-    return adjacency_list
+    def display(self):
+        for vertex in self.adjacency_list.keys():
+            print(f"{vertex} -> {self.adjacency_list[vertex]}")
 
 
 if __name__ == "__main__":
@@ -26,8 +27,12 @@ if __name__ == "__main__":
     print("\nStart entering edges (s,d,w): ")
     edges = [list(map(int, input().split(" "))) for i in range(num_edges)]
 
-    adjacency_list = edges_to_adjacency_list(edges)
+    g = Graph()
+
+    # Adding all the edges
+    for edge in edges:
+        v1, v2, w = edge
+        g.add_edge(v1, v2, w)
 
     print("\nAdjacency List is: ")
-    for vertex in adjacency_list.keys():
-        print(f"{vertex} -> {adjacency_list[vertex]}")
+    g.display()
