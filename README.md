@@ -9,3 +9,4 @@
 3. Quick sort Algorithm
 4. Knapsack Problem (Fractional)
 5. Job Sequencing with Deadlines
+6. Prims's Minimum Spanning Tree Algorithm
