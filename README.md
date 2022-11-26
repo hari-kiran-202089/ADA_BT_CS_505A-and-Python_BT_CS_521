@@ -3,5 +3,7 @@
 ---
 
 - Theres will be two additional branches in this repo
-- One branch is for ADA Labs and another one is for Python Labs
-- You can switch labs to view solutions of specific subject
+- Click below to switch to specific subject
+
+  1. [ADA](https://github.com/hari-kiran-202089/ADA_BT_CS_505A-and-Python_BT_CS_526/tree/ADA)
+  2. [Python](https://github.com/hari-kiran-202089/ADA_BT_CS_505A-and-Python_BT_CS_526/tree/python)
