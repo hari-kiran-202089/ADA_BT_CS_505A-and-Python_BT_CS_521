@@ -10,3 +10,5 @@
 4. [Write a program to convert edge list of a graph to adjacency matrix](https://github.com/hari-kiran-202089/ADA_BT_CS_505A-and-Python_BT_CS_526/blob/python/Python/adjacency_matrix.py)
 5. [Write a program to convert edge list of a graph to adjacency list](https://github.com/hari-kiran-202089/ADA_BT_CS_505A-and-Python_BT_CS_526/blob/python/Python/adjacency_list.py)
 6. [Write a function to find Duplicate values in the List](https://github.com/hari-kiran-202089/ADA_BT_CS_505A-and-Python_BT_CS_526/blob/python/Python/duplicate_values.py)
+7. [Design a class that accommodates all the Tree traversal types (Inorder, Preorder, Postorder)](https://github.com/hari-kiran-202089/ADA_BT_CS_505A-and-Python_BT_CS_526/blob/python/Python/tree_traversal.py)
+8. [Design a class for all the Graph traversal types (BFS, DFS)](https://github.com/hari-kiran-202089/ADA_BT_CS_505A-and-Python_BT_CS_526/blob/python/Python/graph_traversals.py)
