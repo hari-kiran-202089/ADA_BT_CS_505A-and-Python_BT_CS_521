@@ -12,3 +12,4 @@
 6. [Write a function to find Duplicate values in the List](https://github.com/hari-kiran-202089/ADA_BT_CS_505A-and-Python_BT_CS_526/blob/python/Python/duplicate_values.py)
 7. [Design a class that accommodates all the Tree traversal types (Inorder, Preorder, Postorder)](https://github.com/hari-kiran-202089/ADA_BT_CS_505A-and-Python_BT_CS_526/blob/python/Python/tree_traversal.py)
 8. [Design a class for all the Graph traversal types (BFS, DFS)](https://github.com/hari-kiran-202089/ADA_BT_CS_505A-and-Python_BT_CS_526/blob/python/Python/graph_traversals.py)
+9. [Design an abstract class for the Sorting methods that will force the inherited class to include all the relevant components like sort(), display(), etc.](https://github.com/hari-kiran-202089/ADA_BT_CS_505A-and-Python_BT_CS_526/blob/python/Python/abstract_class.py)
