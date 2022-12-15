@@ -1,24 +1,3 @@
-'''
-Hello reader,
-
-You are reading this because you wanted to submit this assingment today and
-are not able to do it on your own.
-
-That's because, Either you don't like coding or you are too busy in enjoying your life.
-Anyway I don't care. 
-
-Atleast show some "gratitude" for the person who sacrificed his own time and 
-wrote this assingment and kind enough to share 
-with you all it's not because he cares about you, but because it's his nature 
-to help his friends. Yah, "Friends" that might sound weird to you.
-Because you never treated him as friend. 
-Yet, He does.
-
-
-# Treat people with kindness.
-
-'''
-
 from abc import ABC, abstractmethod, abstractproperty
 
 
